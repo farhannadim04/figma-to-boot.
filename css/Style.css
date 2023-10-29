@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* -----------menu--------- */
+.navbar{
+    padding: 55px 60px;
+    background: #FAE3B6;
+}
+.navbar .navbar-brand{
+    padding-left: 15px;
+    font-size:46px ;
+}
+.nav-item{
+    font-size: 18px;
+    padding-left: 40px;
+}
+.btn{
+    padding-right: 60px;
+    border: none;
+}
+.btnA{
+    margin-right: 20px;
+    padding: 5px 10px;
+    background: #FAE3B6;
+    border: none;
+    border-bottom: 3px black ;
+}
+.btnA:hover{
+    background: #FDBB57;
+}
+.btnB{
+    padding: 5px 10px;
+    background: #FAE3B6;
+    border: none;
+    border: 1px solid blue;
+}
+.btnB:hover{
+    background: #FDBB57;
+}
+/* -----------------banner----------------- */
+#bannerpart{
+    background: #FAE3B6;
+}
+.banneritem{
+    padding-top: 80px;
+    padding-bottom: 133px;
+}
+
+.banner-left h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+.banner-left p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 70px;
+}
+.banner-left a{
+    border-radius: 5px;
+    background: #000;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 85px;
+}
+/* --product- part------------------ */
+#productpart{
+    padding-top: 120px;
+    padding-bottom: 210px;
+}
+.producttext h3{
+    text-align: center;
+    color: #000;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.productimg{
+    padding-top: 40px;
+}
+.imgl{
+    position: relative;
+}
+.imgl img{
+    position: absolute;
+}
+.imgs{
+    margin-left: 140px;
+}
+.imgr{
+    margin-left: 280px;
+}
+.imgl button{
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 9px 110px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 300px;
+    margin-left: 23px;
+    }
+    .imgs button{
+       margin-left: 40px;
+    }
+    .imgr button{
+        margin-left: 50px;
+    }
+    /* -------------fashon------------------------ */
+    #fashonpart{
+        padding-top: 350px;
+        padding-bottom: 120px;
+    }
+
+    .fashimg{
+        position: relative;
+    }
+    .fashontext h3{
+        color: #000;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 62px;
+        font-weight: 700;
+        padding-top: 80px;
+        line-height: normal;
+        padding-bottom: 50px;
+    }
+    .fashontext p{
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .found{
+        position: absolute;
+        border-radius: 20px;
+        background: #FEECC8;
+        height: 250px;
+        width: 780px;
+        margin-left: 540px;
+        margin-top: 600px;
+        display: flex;
+
+    }
+   
+
+
+.ltext h3{
+    color: #000;
+    font-family: 'Podkova', serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 70px;
+    padding-left: 80px;
+    }
+    .ltext p{
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-top: 10px;
+        padding-left: 90px;
+    }
+    .ltext{
+        position: relative;
+    }
+    .ltextafter{
+        position: absolute;
+        height: 110px;
+        width: 7px;
+        background: #000;
+        content: '';
+        left: 260px;
+        top: 70px;
+        transform: translateX(-50%);
+    }
+
+    .mtext h3{
+        color: #000;
+        font-family: 'Podkova', serif;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 70px;
+        padding-left: 80px;
+        }
+        .mtext p{
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding-top: 10px;
+            padding-left: 90px;
+        }
+        .mtext{
+            position: relative;
+            margin-left: 20px;
+            padding-top: none;
+        }
+        .mtextafter{
+            position: absolute;
+            height: 110px;
+            width: 7px;
+            background: #000;
+            content: '';
+            left: 260px;
+            top: 70px;
+            transform: translateX(-50%);
+        }
+
+        .rtext h3{
+            color: #000;
+            font-family: 'Podkova', serif;
+            font-size: 62px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-top: 70px;
+            padding-left: 80px;
+            }
+            .rtext p{
+                color: #000;
+                font-family: 'Poppins', sans-serif;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding-top: 10px;
+                padding-left: 90px;
+            }
+            .rtext{
+                position: relative;
+                margin-left: 20px;
+                padding-top: none;
+            }
+            .rtextafter{
+                position: absolute;
+                height: 110px;
+                width: 7px;
+                background: #000;
+                content: '';
+                left: 260px;
+                top: 70px;
+                transform: translateX(-50%);
+            }
